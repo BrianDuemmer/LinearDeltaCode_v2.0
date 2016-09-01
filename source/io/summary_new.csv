@@ -1,0 +1,61 @@
+Pin#; PORT IO; Function; Pulldown?;Pullup?;Direction;Function
+;;;;;;
+42;PF0;M0PWM0; ; ;Output;motA
+49;PG0;M0PWM4; ; ;Output;Hotend 2
+44;PF2;M0PWM2; ; ;Output;motC
+43;PF1;M0PWM1; ; ;Output;motB
+45;PF3;M0PWM3; ; ;Output;Hotend 1
+;;;;;;
+12;PE3;AIN0; ; ;Input;bed thermistor 1
+13;PE2;AIN1; ; ;Input;bed thermistor 2
+;;;;;;
+14;PE1;GPIO_PE1; true; false;Input;A_topEndstop
+15;PE0;GPIO_PE0; true; false;Input;A_bottomEndstop
+18;PK0;GPIO_PK0; true; false;Input;B_topEndstop
+19;PK1;GPIO_PK1; true; false;Input;B_bottomEndstop
+20;PK2;GPIO_PK2; true; false;Input;C_topEndstop
+21;PK3;GPIO_PK3; true; false;Input;C_bottomEndstop
+;;;;;;
+83;PL2;PHB0; ; ;Input;encA_b
+82;PL1;PHA0; ; ;Input;encA_a
+22;PC7;GPIO_PC7; false; true;Input;encB_a
+23;PC6;GPIO_PC6; false; true;Input;encB_b
+24;PC5;GPIO_PC5; false; true;Input;encC_a
+25;PC4;GPIO_PC4; false; true;Input;encC_b
+;;;;;;
+29;PH0;GPIO_PH0; false; true;Output;stepperA_dir
+30;PH1;GPIO_PH1; true; false;Output;stepperA_stp
+31;PH2;GPIO_PH2; false; true;Output;stepperA_slp
+32;PH3;GPIO_PH3; false; true;Output;stepperA_res
+33;PA0;GPIO_PA0; true; false;Output;stepperA_ms1
+34;PA1;GPIO_PA1; true; false;Output;stepperA_ms2
+35;PA2;GPIO_PA2; true; false;Output;stepperA_ms3
+36;PA3;GPIO_PA3; false; true;Output;stepperA_en
+;;;;;;
+40;PA6;GPIO_PA6; false; true;Output;stepperB_dir
+41;PA7;GPIO_PA7; true; false;Output;stepperB_stp
+46;PF4;GPIO_PF4; false; true;Output;stepperB_slp
+50;PG1;GPIO_PG1; false; true;Output;stepperB_res
+60;PK7;GPIO_PK7; true; false;Output;stepperB_ms1
+62;PK5;GPIO_PK5; true; false;Output;stepperB_ms2
+63;PK4;GPIO_PK4; true; false;Output;stepperB_ms3
+71;PM7;GPIO_PM7; false; true;Output;stepperB_en
+;;;;;;
+72;PM6;GPIO_PM6; false; true;Output;PSUen
+73;PM5;GPIO_PM5; false; true;Input;Zprobe
+74;PM4;GPIO_PM4; true; false;Output;bedHeater
+75;PM3;GPIO_PM3; true; false;Output;StatusLED_1
+76;PM2;GPIO_PM2; true; false;Output;StatusLED_2
+77;PM1;GPIO_PM1; true; false;Output;StatusLED_3
+;;;;;;
+2;PD1;SSI2XDAT0; ; ;COM;SD card_MOSI
+1;PD0;SSI2XDAT1; ; ;COM;SD card_MISO
+3;PD2;SSI2FSS; ; ;COM;SD card_CS
+4;PD3;SSI2CLK; ; ;COM;SD card_clk
+;;;;;;
+11;PQ2;SSI3XDAT0; ; ;COM;Thermo1
+27;PQ3;SSI3XDAT1; ; ;COM;Thermo2
+6;PQ1;SSI3FSS; ; ;COM;Thermo_sel
+5;PQ0;SSI3CLK; ; ;COM;Thermo_clk
+37;PA4;I2C7SCL; ; ;COM;LCD
+38;PA5;I2C7SDA; ; ;COM;LCD

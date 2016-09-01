@@ -1,0 +1,49 @@
+Pin#; PORT IO; Function; Directions;;;Function
+42;PF0;M0PWM0; ; ;;motA
+44;PF2;M0PWM2; ; ;;motB
+43;PF1;M0PWM1; ; ;;motC
+45;PF3;M0PWM3; ; ;;hotend
+12;PE3;AIN0; ; ;;bed thermistor
+1;PD0;GPIO_PD0; false; true;Input;A_topEndstop
+2;PD1;GPIO_PD1; false; true;Input;A_bottomEndstop
+3;PD2;GPIO_PD2; false; true;Input;B_topEndstop
+4;PD3;GPIO_PD3; false; true;Input;B_bottomEndstop
+13;PE2;GPIO_PE2; false; true;Input;C_topEndstop
+14;PE1;GPIO_PE1; false; true;Input;C_bottomEndstop
+15;PE0;GPIO_PE0; false; true;Input;encB_a
+18;PK0;GPIO_PK0; false; true;Input;encB_b
+19;PK1;GPIO_PK1; false; true;Input;encC_a
+20;PK2;GPIO_PK2; false; true;Input;encC_b
+21;PK3;GPIO_PK3; false; true;Output;stepperA_dir
+22;PC7;GPIO_PC7; true; false;Output;stepperA_stp
+23;PC6;GPIO_PC6; false; true;Output;stepperA_slp
+24;PC5;GPIO_PC5; false; true;Output;stepperA_res
+25;PC4;GPIO_PC4; true; false;Output;stepperA_ms1
+29;PH0;GPIO_PH0; true; false;Output;stepperA_ms2
+30;PH1;GPIO_PH1; true; false;Output;stepperA_ms3
+31;PH2;GPIO_PH2; false; true;Output;stepperA_en
+32;PH3;GPIO_PH3; false; true;Output;stepperB_dir
+33;PA0;GPIO_PA0; true; false;Output;stepperB_stp
+34;PA1;GPIO_PA1; false; true;Output;stepperB_slp
+38;PA5;GPIO_PA5; false; true;Output;stepperB_res
+40;PA6;GPIO_PA6; true; false;Output;stepperB_ms1
+41;PA7;GPIO_PA7; true; false;Output;stepperB_ms2
+46;PF4;GPIO_PF4; true; false;Output;stepperB_ms3
+60;PK7;GPIO_PK7; false; true;Output;stepperB_en
+62;PK5;GPIO_PK5; false; true;Output;PSUen
+63;PK4;GPIO_PK4; false; true;Input;Zprobe
+71;PM7;GPIO_PM7; true; false;Output;bedHeater
+72;PM6;GPIO_PM6; true; false;Output;StatusLED_1
+73;PM5;GPIO_PM5; true; false;Output;StatusLED_2
+74;PM4;GPIO_PM4; true; false;Output;StatusLED_3
+11;PQ2;SSI3XDAT0; ; ;;SD card
+27;PQ3;SSI3XDAT1; ; ;;SD card
+6;PQ1;SSI3FSS; ; ;;SD card
+5;PQ0;SSI3CLK; ; ;;SD card
+37;PA4;SSI0XDAT0; ; ;;Thermo1
+36;PA3;SSI0FSS; ; ;;Thermo1
+35;PA2;SSI0CLK; ; ;;Thermo1
+49;PG0;I2C1SCL; ; ;;LCD
+50;PG1;I2C1SDA; ; ;;LCD
+83;PL2;PHB0; ; ;;encA_b
+82;PL1;PHA0; ; ;;encA_a
