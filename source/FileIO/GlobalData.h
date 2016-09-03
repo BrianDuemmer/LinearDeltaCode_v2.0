@@ -62,6 +62,7 @@ extern DeltaKinematics	g_motionCtl;
 #define TCP_PORT						50000
 #define TCP_SERVER_STACK				4096
 #define MAX_CLIENT_CT					2   // maximum number of clients allowed to connect
+#define TCP_PACKET_SIZE					1024
 
 
 #endif /* SOURCE_FILEIO_GLOBALDATA_H_ */

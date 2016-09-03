@@ -45,6 +45,7 @@ void powerOn()
 	/* Call board init functions */
 	Board_initGeneral();
 	Board_initSDSPI();
+	Board_initEMAC();
 
 	// Initialize FPU
 	FPUEnable();

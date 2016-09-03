@@ -11,15 +11,15 @@
 #define MAX_COUNT 10
 
 void gcTest(UArg arg0, UArg arg1){
-	char line[] = "N2000 g10 \"DICKS!!!\" x12.34 Y5.6 z7.89 F2000";
-	for(int i = 0; i < MAX_COUNT; i++){
-		GCline *testLine = new GCline(line);
-		testLine->sysPrint();
-		delete testLine;
-	}
-	System_printf("successfully completed %d executions\n", MAX_COUNT);
-	System_flush();
-	int x = 2;
+//	char line[] = "N2000 g10 \"DICKS!!!\" x12.34 Y5.6 z7.89 F2000";
+//	for(int i = 0; i < MAX_COUNT; i++){
+//		GCline *testLine = new GCline(line);
+//		testLine->sysPrint();
+//		delete testLine;
+//	}
+//	System_printf("successfully completed %d executions\n", MAX_COUNT);
+//	System_flush();
+//	int x = 2;
 }
 
 void VecMathTest(UArg arg0, UArg arg1)
@@ -114,17 +114,17 @@ void pwmTest(UArg arg0, UArg arg1)
 
 void qeiTest(UArg arg0, UArg arg1)
 {
-	for(;;)
-	{
-		Task_sleep(500);
-		System_printf
-		(
-			"Encoder positions	A: %d	B: %d\n",
-			g_hwl.getAxisAEncoderCt(),
-			g_hwl.getAxisBEncoderCt()
-		);
-		System_flush();
-	}
+//	for(;;)
+//	{
+//		Task_sleep(500);
+//		System_printf
+//		(
+//			"Encoder positions	A: %d	B: %d\n",
+//			g_hwl.getAxisAEncoderCt(),
+//			g_hwl.getAxisBEncoderCt()
+//		);
+//		System_flush();
+//	}
 }
 
 

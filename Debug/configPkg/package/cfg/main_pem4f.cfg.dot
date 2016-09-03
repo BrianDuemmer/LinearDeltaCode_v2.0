@@ -109,9 +109,6 @@ digraph configuration {
         xdc_runtime_SysMin [style=filled,fillcolor=lightgray, label="SysMin"];
         xdc_runtime__top -> xdc_runtime_SysMin[style=invis];
         xdc_runtime_SysMin -> xdc_runtime__bot[style=invis];
-        xdc_runtime_SysStd [style=filled,fillcolor=lightgray, label="SysStd"];
-        xdc_runtime__top -> xdc_runtime_SysStd[style=invis];
-        xdc_runtime_SysStd -> xdc_runtime__bot[style=invis];
         xdc_runtime_Text [style=filled,fillcolor=lightgray, label="Text"];
         xdc_runtime__top -> xdc_runtime_Text[style=invis];
         xdc_runtime_Text -> xdc_runtime__bot[style=invis];
@@ -409,6 +406,9 @@ digraph configuration {
         ti_ndk_config_Global [style=filled,fillcolor=lightgray, label="Global"];
         ti_ndk_config__top -> ti_ndk_config_Global[style=invis];
         ti_ndk_config_Global -> ti_ndk_config__bot[style=invis];
+        ti_ndk_config_DhcpClient [style=filled,fillcolor=lightgray, label="DhcpClient"];
+        ti_ndk_config__top -> ti_ndk_config_DhcpClient[style=invis];
+        ti_ndk_config_DhcpClient -> ti_ndk_config__bot[style=invis];
         ti_ndk_config_Tcp [style=filled,fillcolor=lightgray, label="Tcp"];
         ti_ndk_config__top -> ti_ndk_config_Tcp[style=invis];
         ti_ndk_config_Tcp -> ti_ndk_config__bot[style=invis];

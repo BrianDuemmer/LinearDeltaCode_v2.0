@@ -33,6 +33,7 @@
 #include <xdc/runtime/Diags.h>
 #include <xdc/runtime/System.h>
 #include <xdc/cfg/global.h>
+#include <xdc/runtime/Error.h>
 
 /* BIOS Header files */
 #include <ti/sysbios/BIOS.h>

@@ -264,6 +264,7 @@ void GCline::sysPrint(){
 		System_printf("Arg number %d:\n", i);
 		System_printf("\tCommand letter:  %c\n\tCommand number:   %7.3f \n", args[i].letter, args[i].val);
 	}
+	System_flush();
 }
 
 
